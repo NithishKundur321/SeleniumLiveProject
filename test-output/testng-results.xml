@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="16" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-13T00:09:09 IST" name="Suite" finished-at="2025-04-13T00:10:49 IST" duration-ms="99953">
+    <groups>
+    </groups>
+    <test started-at="2025-04-13T00:09:09 IST" name="Test" finished-at="2025-04-13T00:10:49 IST" duration-ms="99953">
+      <class name="tests.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:09 IST" name="setup" finished-at="2025-04-13T00:09:11 IST" duration-ms="2463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoggingIntoApplicationUsingValidCredentials()[pri:1, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:11 IST" name="verifyLoggingIntoApplicationUsingValidCredentials" finished-at="2025-04-13T00:09:15 IST" duration-ms="3319" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at tests.Login.verifyLoggingIntoApplicationUsingValidCredentials(Login.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggingIntoApplicationUsingValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:15 IST" name="tearDown" finished-at="2025-04-13T00:09:15 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:15 IST" name="setup" finished-at="2025-04-13T00:09:17 IST" duration-ms="1901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoggingIntoApplicationUsingInvalidCredentials()[pri:2, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:17 IST" name="verifyLoggingIntoApplicationUsingInvalidCredentials" finished-at="2025-04-13T00:09:18 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggingIntoApplicationUsingInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:18 IST" name="tearDown" finished-at="2025-04-13T00:09:18 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:18 IST" name="setup" finished-at="2025-04-13T00:09:20 IST" duration-ms="1928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoggingIntoApplicationUsingInvalidEmailAndValidPassword()[pri:3, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:20 IST" name="verifyLoggingIntoApplicationUsingInvalidEmailAndValidPassword" finished-at="2025-04-13T00:09:20 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggingIntoApplicationUsingInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:20 IST" name="tearDown" finished-at="2025-04-13T00:09:20 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:20 IST" name="setup" finished-at="2025-04-13T00:09:22 IST" duration-ms="1890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoggingIntoApplicationUsingValidEmailAndInvalidPassword()[pri:4, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:22 IST" name="verifyLoggingIntoApplicationUsingValidEmailAndInvalidPassword" finished-at="2025-04-13T00:09:23 IST" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggingIntoApplicationUsingValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:23 IST" name="tearDown" finished-at="2025-04-13T00:09:23 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:23 IST" name="setup" finished-at="2025-04-13T00:09:25 IST" duration-ms="1914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoggingIntoApplicationWithoutProvidingAnyCredentials()[pri:5, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:25 IST" name="verifyLoggingIntoApplicationWithoutProvidingAnyCredentials" finished-at="2025-04-13T00:09:26 IST" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggingIntoApplicationWithoutProvidingAnyCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:26 IST" name="tearDown" finished-at="2025-04-13T00:09:26 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:26 IST" name="setup" finished-at="2025-04-13T00:09:29 IST" duration-ms="2231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyForgottenOptionIsAvailable()[pri:6, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:29 IST" name="verifyForgottenOptionIsAvailable" finished-at="2025-04-13T00:09:29 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgottenOptionIsAvailable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:29 IST" name="tearDown" finished-at="2025-04-13T00:09:29 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:29 IST" name="setup" finished-at="2025-04-13T00:09:31 IST" duration-ms="1921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoggingIntoApplicationUsingKeyboardKeys()[pri:7, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:31 IST" name="verifyLoggingIntoApplicationUsingKeyboardKeys" finished-at="2025-04-13T00:09:36 IST" duration-ms="5197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggingIntoApplicationUsingKeyboardKeys -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:36 IST" name="tearDown" finished-at="2025-04-13T00:09:36 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:36 IST" name="setup" finished-at="2025-04-13T00:09:38 IST" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPlaceHoldersofFeildsInLoginPage()[pri:8, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:38 IST" name="verifyPlaceHoldersofFeildsInLoginPage" finished-at="2025-04-13T00:09:38 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaceHoldersofFeildsInLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:38 IST" name="tearDown" finished-at="2025-04-13T00:09:38 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:38 IST" name="setup" finished-at="2025-04-13T00:09:40 IST" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBrowsingBackAfterLogin()[pri:9, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:40 IST" name="verifyBrowsingBackAfterLogin" finished-at="2025-04-13T00:09:41 IST" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrowsingBackAfterLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:41 IST" name="tearDown" finished-at="2025-04-13T00:09:41 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:41 IST" name="setup" finished-at="2025-04-13T00:09:43 IST" duration-ms="2276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBrowsingBackAfterLogout()[pri:10, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:43 IST" name="verifyBrowsingBackAfterLogout" finished-at="2025-04-13T00:09:48 IST" duration-ms="4151" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pages.LogoutPage.getDriver()" because "this.logoutPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pages.LogoutPage.getDriver()" because "this.logoutPage" is null
+at tests.Login.verifyBrowsingBackAfterLogout(Login.java:147)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrowsingBackAfterLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:48 IST" name="tearDown" finished-at="2025-04-13T00:09:48 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:48 IST" name="setup" finished-at="2025-04-13T00:09:50 IST" duration-ms="1862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoggingIntoApplicationUsingInactiveCredentials()[pri:11, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:50 IST" name="verifyLoggingIntoApplicationUsingInactiveCredentials" finished-at="2025-04-13T00:09:50 IST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggingIntoApplicationUsingInactiveCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:50 IST" name="tearDown" finished-at="2025-04-13T00:09:51 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:51 IST" name="setup" finished-at="2025-04-13T00:09:53 IST" duration-ms="2057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNumberOfUnsuccessfullLoginAttemps()[pri:12, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:53 IST" name="verifyNumberOfUnsuccessfullLoginAttemps" finished-at="2025-04-13T00:09:55 IST" duration-ms="2403" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: unhandled inspector error: {"code":-32000,"message":"Node with given id does not belong to the document"}
+  (Session info: chrome=135.0.7049.85)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f906c803c674c9235ea33060199b21c4, isElementDisplayed {id=f.1425B44A20E613FD1F503E657E2F59A4.d.9492C0D3DBFD8F66300E371C8BE6A523.e.145}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\NITHISH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56518/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f906c803c674c9235ea33060199b21c4)] -> xpath: //div[@class='alert alert-danger alert-dismissible']]
+Session ID: f906c803c674c9235ea33060199b21c4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32000,"message":"Node with given id does not belong to the document"}
+  (Session info: chrome=135.0.7049.85)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f906c803c674c9235ea33060199b21c4, isElementDisplayed {id=f.1425B44A20E613FD1F503E657E2F59A4.d.9492C0D3DBFD8F66300E371C8BE6A523.e.145}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\NITHISH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56518/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f906c803c674c9235ea33060199b21c4)] -> xpath: //div[@class='alert alert-danger alert-dismissible']]
+Session ID: f906c803c674c9235ea33060199b21c4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+at Utils.ElementUtilities.getElementText(ElementUtilities.java:58)
+at pages.LoginPage.pagelevelWarning(LoginPage.java:125)
+at tests.Login.verifyNumberOfUnsuccessfullLoginAttemps(Login.java:186)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNumberOfUnsuccessfullLoginAttemps -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:55 IST" name="tearDown" finished-at="2025-04-13T00:09:55 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:55 IST" name="setup" finished-at="2025-04-13T00:09:58 IST" duration-ms="2315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPasswordFeildForVisibility()[pri:13, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:58 IST" name="verifyLoginPasswordFeildForVisibility" finished-at="2025-04-13T00:09:58 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPasswordFeildForVisibility -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:58 IST" name="tearDown" finished-at="2025-04-13T00:09:58 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:09:58 IST" name="setup" finished-at="2025-04-13T00:10:00 IST" duration-ms="2145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCopyingOfTextEnteredIntoPasswordFeilds()[pri:14, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:00 IST" name="verifyCopyingOfTextEnteredIntoPasswordFeilds" finished-at="2025-04-13T00:10:01 IST" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCopyingOfTextEnteredIntoPasswordFeilds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:01 IST" name="tearDown" finished-at="2025-04-13T00:10:01 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:01 IST" name="setup" finished-at="2025-04-13T00:10:06 IST" duration-ms="4689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPasswordIsNotVisibleInPageSource()[pri:15, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:06 IST" name="verifyPasswordIsNotVisibleInPageSource" finished-at="2025-04-13T00:10:06 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordIsNotVisibleInPageSource -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:06 IST" name="tearDown" finished-at="2025-04-13T00:10:06 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:06 IST" name="setup" finished-at="2025-04-13T00:10:09 IST" duration-ms="2512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoggingInToApplicationUsingChangedPassword()[pri:16, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:09 IST" name="verifyLoggingInToApplicationUsingChangedPassword" finished-at="2025-04-13T00:10:26 IST" duration-ms="17082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggingInToApplicationUsingChangedPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:26 IST" name="tearDown" finished-at="2025-04-13T00:10:26 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:26 IST" name="setup" finished-at="2025-04-13T00:10:28 IST" duration-ms="1981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageNavigation()[pri:17, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:28 IST" name="verifyLoginPageNavigation" finished-at="2025-04-13T00:10:39 IST" duration-ms="11227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:39 IST" name="tearDown" finished-at="2025-04-13T00:10:39 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:39 IST" name="setup" finished-at="2025-04-13T00:10:41 IST" duration-ms="2054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDifferentWaysOfNavigatingToLoginPage()[pri:18, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:41 IST" name="verifyDifferentWaysOfNavigatingToLoginPage" finished-at="2025-04-13T00:10:42 IST" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDifferentWaysOfNavigatingToLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:42 IST" name="tearDown" finished-at="2025-04-13T00:10:42 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:42 IST" name="setup" finished-at="2025-04-13T00:10:45 IST" duration-ms="2579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageBreadCrumbUrlTitleHeading()[pri:19, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:45 IST" name="verifyLoginPageBreadCrumbUrlTitleHeading" finished-at="2025-04-13T00:10:45 IST" duration-ms="65" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //div[@id='content']//h2)[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@id='content']//h2)[1]' is not a valid XPath expression.
+  (Session info: chrome=135.0.7049.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f3a0730a137936b3632e213467cfe79, findElement {value=//div[@id='content']//h2)[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\NITHISH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56661}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56661/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f3a0730a137936b3632e213467cfe79]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@id='content']//h2)[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@id='content']//h2)[1]' is not a valid XPath expression.
+  (Session info: chrome=135.0.7049.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f3a0730a137936b3632e213467cfe79, findElement {value=//div[@id='content']//h2)[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\NITHISH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56661}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56661/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f3a0730a137936b3632e213467cfe79
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+at Utils.ElementUtilities.getElementText(ElementUtilities.java:58)
+at pages.LoginPage.getFirstHeading(LoginPage.java:91)
+at tests.Login.verifyLoginPageBreadCrumbUrlTitleHeading(Login.java:454)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageBreadCrumbUrlTitleHeading -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:45 IST" name="tearDown" finished-at="2025-04-13T00:10:45 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:45 IST" name="setup" finished-at="2025-04-13T00:10:48 IST" duration-ms="2497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginInAllEnvironments()[pri:20, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:48 IST" name="verifyLoginInAllEnvironments" finished-at="2025-04-13T00:10:49 IST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginInAllEnvironments -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Login@5dafbe45]" started-at="2025-04-13T00:10:49 IST" name="tearDown" finished-at="2025-04-13T00:10:49 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

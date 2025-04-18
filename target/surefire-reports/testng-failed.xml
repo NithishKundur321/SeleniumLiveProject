@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="listeners.Mylisteners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="verifyLoginPasswordFeildForVisibility"/>
+          <include name="verifyLoginInAllEnvironments"/>
+          <include name="verifyLoggingIntoApplicationUsingInvalidCredentials"/>
+          <include name="verifyLoginPageBreadCrumbUrlTitleHeading"/>
+          <include name="verifyLoggingIntoApplicationUsingValidEmailAndInvalidPassword"/>
+          <include name="verifyPlaceHoldersofFeildsInLoginPage"/>
+          <include name="verifyLoggingIntoApplicationUsingInactiveCredentials"/>
+          <include name="verifyNumberOfUnsuccessfullLoginAttemps"/>
+          <include name="tearDown"/>
+          <include name="verifyLoggingIntoApplicationWithoutProvidingAnyCredentials"/>
+          <include name="verifyLoggingIntoApplicationUsingInvalidEmailAndValidPassword"/>
+          <include name="verifyBrowsingBackAfterLogout"/>
+          <include name="verifyLoggingIntoApplicationUsingValidCredentials"/>
+          <include name="setup"/>
+          <include name="verifyForgottenOptionIsAvailable"/>
+          <include name="verifyLoginPageNavigation"/>
+          <include name="verifyDifferentWaysOfNavigatingToLoginPage"/>
+          <include name="verifyCopyingOfTextEnteredIntoPasswordFeilds"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
